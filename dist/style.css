@@ -384,12 +384,13 @@ path:hover {
     font-size: 11px;
     text-align: center;
 }
+
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
 
 /* mobile view */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 760px) {
     .header {
         /* height: 100vh; */
         background: url('./images/mobile/image-header.jpg') no-repeat
@@ -495,7 +496,7 @@ path:hover {
         height: 600px;
         text-align: center;
         padding: 0 3rem;
-        padding-top: 40rem;
+        padding-top: 45rem;
         background: url('./images/mobile/image-graphic-design.jpg') no-repeat
             center/cover;
     }
