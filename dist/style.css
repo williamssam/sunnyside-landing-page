@@ -372,11 +372,11 @@ ul li {
     cursor: pointer;
 }
 
-path {
+.socials li:hover svg path  {
     transition: fill 400ms ease-in-out;
 }
 
-path:hover {
+.socials li:hover svg path  {
     fill: var(--white);
 }
 
